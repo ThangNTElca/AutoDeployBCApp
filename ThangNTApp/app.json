@@ -1,8 +1,8 @@
 {
-  "id": "acd2fccf-ae5e-4c23-a74c-e383cc1e420f",
+  "id": "88b1fee3-d2f8-4c9a-a2e5-27edf04563af",
   "name": "ThangNTApp",
   "publisher": "ThangNT",
-  "version": "1.0.0.0",
+  "version": "1.0.8.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -13,19 +13,20 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "28.0.0.0",
   "idRanges": [
     {
       "from": 60100,
       "to": 60149
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
